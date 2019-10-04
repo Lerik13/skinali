@@ -995,6 +995,7 @@ input[type="checkbox"]:checked + label:before {
 
 .before-slider-wrap {
   position: relative;
+  z-index: 99;
   max-width: 640px;
   margin: auto;
 }
@@ -1053,6 +1054,7 @@ input[type="checkbox"]:checked + label:before {
 .arrow {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .arrow:focus {
